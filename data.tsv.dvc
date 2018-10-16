@@ -1,0 +1,14 @@
+cmd: python prepare.py data.xml
+deps:
+- md5: 1436a3e43a8800d7a5f1862648bbf570
+  path: prepare.py
+- md5: a304afb96060aad90176268345e10355
+  path: data.xml
+md5: 1ebda833a14c103c902183f40fe9016a
+outs:
+- cache: true
+  md5: a5d14002057b706a4b7104abb39f69a4
+  path: data.tsv
+- cache: true
+  md5: 7207432bef50aa7ed270a9e1ff831c00
+  path: data-test.tsv
